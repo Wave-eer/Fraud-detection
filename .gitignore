@@ -1,0 +1,21 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IPYNB checkpoints
+.ipynb_checkpoints/
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+
+# Data and models (to avoid committing large files)
+data/
+models/*.pkl
+models/*.png
+
+# OS files
+.DS_Store
+Thumbs.db
