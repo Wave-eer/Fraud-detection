@@ -2,6 +2,9 @@ import json
 import os
 
 notebook = {
+ "nbformat": 4,
+ "nbformat_minor": 2,
+ "metadata": {},
  "cells": [
   {
    "cell_type": "markdown",

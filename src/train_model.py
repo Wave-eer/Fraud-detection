@@ -235,6 +235,7 @@ def main():
     rf_cc_res = evaluate_model("Random Forest", rf_cc, X_tr_cc_bal, y_tr_cc_bal, X_te_cc, y_te_cc, "CreditCard")
     
     # Cross Validation
+    run_cross_validation(X_tr_cc, y_tr_cc, "CreditCard")
     
     # Plot PR Curves
     plot_pr_curves([lr_cc_res, rf_cc_res], y_te_cc, "CreditCard")
