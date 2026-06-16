@@ -294,7 +294,7 @@ notebook = {
    "outputs": [],
    "source": [
     "fig, ax = plt.subplots(figsize=(8, 5))\n",
-    "for res, color in [(lr_f_results, 'semibold/steelblue'), (rf_f_results, 'darkorange')]:\n",
+    "for res, color in [(lr_f_results, 'steelblue'), (rf_f_results, 'darkorange')]:\n",
     "    # Note: Using try/except to handle the dictionary structure difference if any\n",
     "    name = res['model_name']\n",
     "    proba = res['y_proba']\n",
